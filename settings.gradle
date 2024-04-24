@@ -1,0 +1,6 @@
+rootProject.name = 'hexagon-modulith'
+
+include 'application'
+include 'domain'
+include 'domain:module1:adapter', 'domain:module1:domain'
+include 'domain:module2:adapter'

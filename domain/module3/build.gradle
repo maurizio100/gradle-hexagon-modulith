@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(':domain:module3:adapter')
+}
+
+jar {
+    from project(':domain:module3:adapter').sourceSets.main.output
+}
